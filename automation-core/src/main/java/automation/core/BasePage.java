@@ -38,7 +38,10 @@ public abstract class BasePage {
 
   protected void waitForPageReady(){
     WebDriverWait wait = new WebDriverWait(driver, 15);
-    wait.until((Predicate<WebDriver>) webDriver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete"));
+
+    JavascriptExecutor js = (JavascriptExecutor)driver;
+
+    wait.until((ExpectedCondition<Boolean>) wd -> js.executeScript("return document.readyState").toString().equals("complete"));
   }
   
   protected void waitForElementExist(WebElement element) { 

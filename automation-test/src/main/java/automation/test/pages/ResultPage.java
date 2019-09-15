@@ -122,12 +122,6 @@ public class ResultPage extends BasePage {
     public List<Card> convertWebElementToCardObject(){
         waitForPageReady();
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         List<Card> listCard = new ArrayList<Card>();
         waitForElementExist(elGridCard);
         List<WebElement> listCardElement = elGridCard.findElements(By.xpath("//div[@class='card-wrapper']"));
