@@ -1,0 +1,1190 @@
+2019-06-13 21:51:31.885  WARN 6056 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir3196_32729}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=74.0.3729.169, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd3982156ea67a3f9bdf44473c62c716
+2019-06-13 21:53:21.197  WARN 2148 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 245 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir6064_30719}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=74.0.3729.169, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fe182c9e09e93c4244ad344bb355a210
+2019-06-16 18:03:37.868 ERROR 1576 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:03:37.871 ERROR 1576 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:07:11.417 ERROR 9440 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:07:11.421 ERROR 9440 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:09:51.259 ERROR 8152 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:09:51.262 ERROR 8152 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:16:03.100 ERROR 10172 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:16:03.104 ERROR 10172 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:16:09.656 ERROR 10172 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:16:09.660 ERROR 10172 --- [main] c.a.e.configuration.ConfigLoader         : Config
+
+org.xml.sax.SAXParseException: The element type "configuration" must be terminated by the matching end-tag "</configuration>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:na]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_201]
+	at com.aventstack.extentreports.configuration.ConfigLoader.getConfigurationHash(ConfigLoader.java:64) ~[extentreports-3.1.2.jar:na]
+	at com.aventstack.extentreports.reporter.AbstractReporter.loadXMLConfig(AbstractReporter.java:64) [extentreports-3.1.2.jar:na]
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56) [cucumber-extentsreport-3.0.2.jar:na]
+	at automation.test.hooks.CustomHook.afterScenario(CustomHook.java:33) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at cucumber.runtime.Utils$1.call(Utils.java:40) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Utils.invoke(Utils.java:34) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2019-06-16 18:30:26.780  WARN 5828 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-06-16 18:30:32.541  WARN 5828 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-06-16 19:38:37.468  WARN 15144 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlDataQuery' defined in automation.test.AppConfig: Unsatisfied dependency expressed through method 'sqlDataQuery' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2019-06-16 19:38:37.478 ERROR 15144 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2019-06-16 19:38:37.656  WARN 15144 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlDataQuery' defined in automation.test.AppConfig: Unsatisfied dependency expressed through method 'sqlDataQuery' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2019-06-16 19:38:37.663 ERROR 15144 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2019-06-16 19:40:16.237  WARN 11060 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlDataQuery' defined in automation.test.AppConfig: Unsatisfied dependency expressed through method 'sqlDataQuery' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+2019-06-16 19:40:16.248 ERROR 11060 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlDataQuery' defined in automation.test.AppConfig: Unsatisfied dependency expressed through method 'sqlDataQuery' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) ~[spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at cucumber.runtime.java.spring.CucumberTestContextManager.getContext(SpringFactory.java:215) [cucumber-spring-1.2.5.jar:na]
+	at cucumber.runtime.java.spring.CucumberTestContextManager.<init>(SpringFactory.java:207) [cucumber-spring-1.2.5.jar:na]
+	at cucumber.runtime.java.spring.SpringFactory.start(SpringFactory.java:102) [cucumber-spring-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaBackend.buildWorld(JavaBackend.java:123) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.buildBackendWorlds(Runtime.java:141) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:38) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 91 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 104 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at java.util.regex.Matcher.getTextLength(Matcher.java:1283) ~[na:1.8.0_201]
+	at java.util.regex.Matcher.reset(Matcher.java:309) ~[na:1.8.0_201]
+	at java.util.regex.Matcher.<init>(Matcher.java:229) ~[na:1.8.0_201]
+	at java.util.regex.Pattern.matcher(Pattern.java:1093) ~[na:1.8.0_201]
+	at java.util.Formatter.parse(Formatter.java:2547) ~[na:1.8.0_201]
+	at java.util.Formatter.format(Formatter.java:2501) ~[na:1.8.0_201]
+	at java.util.Formatter.format(Formatter.java:2455) ~[na:1.8.0_201]
+	at java.lang.String.format(String.java:2940) ~[na:1.8.0_201]
+	at org.springframework.boot.autoconfigure.jdbc.EmbeddedDatabaseConnection.getUrl(EmbeddedDatabaseConnection.java:109) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineUrl(DataSourceProperties.java:288) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:183) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:42) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat.dataSource(DataSourceConfiguration.java:56) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 105 common frames omitted
+
+2019-06-16 19:40:16.433  WARN 11060 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlDataQuery' defined in automation.test.AppConfig: Unsatisfied dependency expressed through method 'sqlDataQuery' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+2019-06-16 19:40:16.444 ERROR 11060 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlDataQuery' defined in automation.test.AppConfig: Unsatisfied dependency expressed through method 'sqlDataQuery' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) ~[spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at cucumber.runtime.java.spring.CucumberTestContextManager.getContext(SpringFactory.java:215) [cucumber-spring-1.2.5.jar:na]
+	at cucumber.runtime.java.spring.CucumberTestContextManager.<init>(SpringFactory.java:207) [cucumber-spring-1.2.5.jar:na]
+	at cucumber.runtime.java.spring.SpringFactory.start(SpringFactory.java:102) [cucumber-spring-1.2.5.jar:na]
+	at cucumber.runtime.java.JavaBackend.buildWorld(JavaBackend.java:123) [cucumber-java-1.2.5.jar:na]
+	at cucumber.runtime.Runtime.buildBackendWorlds(Runtime.java:141) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:38) [cucumber-core-1.2.5.jar:na]
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95) [cucumber-junit-1.2.5.jar:na]
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100) [cucumber-junit-1.2.5.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.12.jar:4.12]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81) [testng-6.9.10.jar:na]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner$1.run(TestRunner.java:697) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:1004) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:728) [testng-6.9.10.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:629) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.9.10.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-6.9.10.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1064) [testng-6.9.10.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111) [surefire-testng-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 91 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 104 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at java.util.regex.Matcher.getTextLength(Matcher.java:1283) ~[na:1.8.0_201]
+	at java.util.regex.Matcher.reset(Matcher.java:309) ~[na:1.8.0_201]
+	at java.util.regex.Matcher.<init>(Matcher.java:229) ~[na:1.8.0_201]
+	at java.util.regex.Pattern.matcher(Pattern.java:1093) ~[na:1.8.0_201]
+	at java.util.Formatter.parse(Formatter.java:2547) ~[na:1.8.0_201]
+	at java.util.Formatter.format(Formatter.java:2501) ~[na:1.8.0_201]
+	at java.util.Formatter.format(Formatter.java:2455) ~[na:1.8.0_201]
+	at java.lang.String.format(String.java:2940) ~[na:1.8.0_201]
+	at org.springframework.boot.autoconfigure.jdbc.EmbeddedDatabaseConnection.getUrl(EmbeddedDatabaseConnection.java:109) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineUrl(DataSourceProperties.java:288) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:183) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:42) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat.dataSource(DataSourceConfiguration.java:56) ~[spring-boot-autoconfigure-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	... 105 common frames omitted
+
+2019-06-18 23:17:33.600  WARN 14520 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 252 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir13740_31559}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=74.0.3729.169, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 65672b9037a91943615083653b1a70ba
+2019-06-18 23:48:31.483  WARN 17376 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir9928_22089}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=74.0.3729.169, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3e48de50ee2f2ad5c8b7772be01f8d68
+2019-09-15 18:19:16.194  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:19:32.957  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:19:48.458  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:20:05.379  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:20:18.074  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:20:36.845  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:20:55.332  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:21:13.423  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:21:19.063  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:21:39.953  WARN 9084 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:27:09.375  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:27:26.068  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:27:41.527  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:27:58.558  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:28:09.562  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:28:27.748  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:28:45.874  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:29:04.059  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:29:25.186  WARN 936 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:35:38.910  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:35:56.845  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:36:12.149  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:36:29.084  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:36:40.363  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:36:59.267  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:37:18.137  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:37:36.848  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 18:37:50.807  WARN 13916 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:05:57.411  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:06:16.180  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:06:31.930  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:06:49.321  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:07:31.108  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:07:50.240  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:08:09.483  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:08:27.683  WARN 15588 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:10:48.826  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:11:05.871  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:11:21.304  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:11:38.716  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:11:59.469  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:12:17.958  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:12:36.218  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-09-15 21:12:54.722  WARN 5220 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method 'close' failed on bean with name 'webDriver': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-A1KOSTK', ip: '192.168.78.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver

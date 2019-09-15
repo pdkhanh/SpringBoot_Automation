@@ -1,0 +1,26 @@
+webdriver:
+  type: chrome # chrome, edge, ie, firefox, safari
+  path: ../drivers/chromedriver.exe
+  element-timeout: 30 #secs
+  position: 0,0 #0,0 by default
+  dimension: #maximize by default
+  gridhub-server: # empty: local driver, 192.168.22.113 (default port is 4444), 192.168.22.113:5555 for selenium gridhub
+  screenshot-folder: output/screenshot
+
+
+webapp:
+  baseuri: https://www.gobear.com/ph?x_session_type=UAT
+  pageload-timeout: 10 #secs
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1
+    username: test
+    password: test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  file: logs/automation_test.log
+  level:
+    root: WARN
+    vn.auto: DEBUG
