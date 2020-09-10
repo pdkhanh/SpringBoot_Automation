@@ -4,6 +4,8 @@
 
 - Build and Run:
 
+    `cd automation-java-master`
+
     `mvn clean install`
     
     `cd automation-test`
